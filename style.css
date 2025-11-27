@@ -1,0 +1,363 @@
+
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Background-image */
+.bg-image{
+    background-image: linear-gradient(rgb(0, 0, 0,0.7) ,rgb(255, 255, 255,0.1)),url(img/img.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navber Start */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: dimgrey;
+    position: sticky;
+    top: 0;
+	box-shadow: 0px 3px 0px 0px;
+	border: 2px solid silver;
+}
+
+.nav-logo{
+    height: 40px;
+    border: 2px solid bisque; 
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    position: sticky;
+    top: 0;
+} 
+.nav-item  a{
+    text-decoration: none;
+    font-size:18px;
+   color: white;
+  margin-top: 5px;
+    position: sticky;
+    top: 0;
+}
+.nav-item{
+    display: flex;
+    gap: 25px;
+}
+.nav-item  a:hover{
+    background-color:whitesmoke;
+    color: black;
+    height: 20px;
+}
+/* Navber End */
+
+/* Header Start */
+.Head-container{
+   text-align: center;
+   padding-top: 150px;
+
+}
+.Head-container H1{
+    font-size: 50px;
+    color: white
+;
+}
+.Head-container h3{
+    color: whitesmoke;
+}
+ .Head-container button{
+    padding: 10px 20px;
+  font-size: 16px;
+  background-color:B7B89F;
+  color:black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+ margin-top: 20px;
+} 
+.Head-container button:hover{
+background-color: coral;
+
+}
+
+ .material-symbols-outlined{
+  font-size: 20px;
+  margin-right: 8px;
+}
+/* Basic section */
+.Basic-container{
+    display: flex;
+    justify-content: space-between;
+   padding: 50px;
+    background-color:rgb(203, 203, 203) ; 
+}
+
+.Basic-container h1{
+    padding-top: 150px; 
+}
+
+/* basic-image */
+
+.basic-image img{
+    height: 450px;
+    border-radius: 10px; 
+}
+/* Manu-item */
+.Menu-container {
+    background-image: linear-gradient(rgb(0, 0, 0,0.7) ,rgb(255, 255, 255,0.1));
+    padding: 50px;
+}
+
+.Menu-container H1{
+    font-size: 60px;
+    text-align: center;
+    color: white}
+
+.menu-item{
+display: grid;
+grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr;
+gap: 50px;
+/* padding-left: 20px;
+padding-bottom: 50px; */
+justify-items: center;
+}
+ .food-img{
+     height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid bisque;
+    transition: 2s;
+    } 
+.food-img:hover{
+    border: solid chocolate;
+   cursor: pointer;
+   transition: 1s;
+}
+.food-item{
+    text-align: center;
+}
+ /* Chef services */ 
+.chef-container{
+    background-color: rgb(251, 243, 209);
+   padding-top: 50px;
+   padding-bottom: 50px;
+   
+  
+   
+}
+ .chef-container H1{
+text-align: center;
+ }
+ .chef-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items:center;
+    padding-top: 50px;
+ }
+ .single-chef{
+    border: 2px solid burlywood;
+    width: 280px;
+    height: 400px;
+    border-radius: 8px;
+ }
+ .single-chef:hover{
+    border:  solid rgb(181, 125, 53);
+    cursor: pointer;
+ }
+.chef-img img{
+    height: 220px;
+    width: 280px;
+    border-radius: 7px;
+} 
+.chef-text{
+   margin-left: 10px;
+}
+.chef-text button{
+padding-right: 25px;
+padding-left: 25px;
+padding-top: 8px;
+padding-bottom: 8px;
+background-color:burlywood;
+border: none;
+color: black;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.chef-text button:hover{
+background-color: coral;
+}
+
+/* About section */
+.about-container{
+    text-align: center;
+    background-color: rgb(236, 244, 232);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-container p{
+font-size: 20px;
+color: rgb(36, 35, 35);
+}
+.about-container h1{
+    font-size: 50px;
+    color: black;
+}
+.about-container button{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 3px;
+    border: none;
+    background-color:rgb(255, 144, 19);
+}
+.about-container button:hover{
+    background-color: aqua;
+}
+/* Order Section */
+.order-container{
+    background-color:rgb(255, 255, 240);
+    padding: 10px;
+    padding-left: 30px;
+    padding-bottom: 40px;  
+}
+.input{
+  display: grid;
+  grid-template-rows:1fr 1fr 1fr 1fr;
+  gap: 20px;
+  
+}
+input{
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+    color: black;
+    background-color:whitesmoke;
+    font-size: 15px;
+}
+input:hover{
+    border: 2px solid rgb(247, 165, 165);
+    cursor: pointer;
+}
+
+.order-container button{
+    margin-top: 25px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(0, 128, 157);
+    color: white;
+}
+.order-container button:hover{
+    background-color:rgb(211, 175, 55);
+    cursor: pointer;
+}
+/* Location */
+.location{
+display: flex;
+grid-template-rows: 1fr 1fr 1fr;
+justify-content: space-between;
+padding: 30px;
+background-color: rgb(44, 43, 43);
+color: white;
+}
+.location h1{
+    font-size: 40px;
+}
+/* Mobile Device */
+@media(max-width:768px){
+    /* Navber */
+.nav-item{
+    display: flex;
+    gap: 12px;
+}
+.nav-logo{
+    height: 30px;
+}
+.nav-item  a{
+    font-size:12px;
+}
+.Head-container H1{
+    font-size: 23px;
+}
+.Head-container h3{
+font-size: 14px;
+}
+.Head-container button{
+    margin-top: 40px;
+}
+.basic-image img{
+    height: 190px;
+}
+.Basic-container h1{
+font-size: 20px;
+ padding-top: 50px;
+}
+.Basic-container{
+    gap: 10px;
+}
+.menu-item{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+padding-left: 10px;
+}
+ .food-img{
+     height: 100px;
+    width: 100px;
+    } 
+    .food-item{
+    text-align: center;
+}
+
+/* Chef  */
+ .chef-card{
+display: grid;
+grid-template-columns: 1fr;
+ }
+  .single-chef{
+    border: 2px solid brown;
+    width: 300px;
+ }
+ .chef-img img{
+    width: 300px;
+}
+ 
+   /* manu */
+   .food-img{
+    border: 2px solid rgb(0, 0, 0);
+   }
+/* About */
+  .about-container p{
+font-size: 13px;
+}
+.about-container h1{
+font-size: 30px;
+}
+
+/* order section */
+input{
+    height: 30px;
+    width: 290px;
+    border-radius: 5px;
+    color: black;
+    background-color:whitesmoke;
+    font-size: 15px;
+}
+/* location */
+.location h1{
+font-size: 18px;
+}
+.location p{
+font-size: 11px;
+}
+}
